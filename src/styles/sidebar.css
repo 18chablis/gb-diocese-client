@@ -1,0 +1,57 @@
+.sidebar {
+  width: 20%;
+  height: 100vh;
+  background-color: rgb(252, 250, 248);
+  position: absolute;
+  left: 0;
+}
+
+.sidebar-wrapper {
+  background: rgba(255, 255, 255, 0.767);
+  height: 100%;
+}
+
+.logo-box {
+  width: 100%;
+  background-color: transparent;
+}
+
+.logo {
+  color: darkslategrey;
+  font-size: larger;
+  display: flex;
+  font-weight: bolder;
+}
+
+.image-container {
+  max-width: 100%;
+  max-height: 100%;
+  display: flex;
+}
+
+.nav-wrapper {
+  background: darkslategrey;
+  width: 98%;
+  margin-left: 2px;
+  height: 60vh;
+}
+.nav-wrapper .nav {
+  display: block;
+  padding: 20px;
+}
+.nav-wrapper li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+.profile-wrapper {
+  bottom: 0;
+  left: 0;
+  display: block;
+  position: fixed;
+  height: 10vh;
+  width: 20%;
+  margin-left: 2px;
+}
